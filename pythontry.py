@@ -81,7 +81,7 @@ import math
 '''==q.3=='''
 # sec=int(input("enter the no. of seconds: "))
 # print(f"it wil be {sec//3600} hours"
-#       f" {sec%60} minutes")
+#      f" {sec%60} minutes")
 '''---------------------------------------------------'''
 #program to check if number is =ve,-ve or  0 
 
@@ -182,11 +182,53 @@ import math
 
 '''==checking if given num is prime=='''
 
-x=int(input("enter your number:"))
+# x=int(input("enter your number:"))
 
-for i in range(2,x):
-    if x % i == 0:
-        print(f"the number {[x]} is not prime number")
-        break
-else:
-     print(f"the number {[x]} is prime number")    
+# for i in range(2,x):
+#     if x % i == 0:
+#         print(f"the number {[x]} is not prime number")
+#         break
+# else:
+#      print(f"the number {[x]} is prime number")    
+
+'''===program to display the factors of "n"==='''
+
+# n=int(input("give the number:"))
+# i=1
+
+# while i<=n:
+#      if n % i == 0:
+#           print(f"{i}")
+#      i+=1
+    
+'''==program to display table of "n" using for loop=='''
+
+# n=int(input("enter the number:"))
+
+# for i in range(1,11,1):
+#     print(f"{n} x {i} = {n*i}")
+
+'''==program to display table of "n" using while loop=='''
+
+# n=int(input("enter the number:"))
+# i=1
+
+# while i <=10:
+#     print(f"{n} x {i} = {n*i}")
+#     i+=1
+
+'''==program for star patterns=='''
+# for i in range(5,0,-1):
+#     for j in range(5-i):
+#         print(" ",end="")
+#     for k in range(i):
+#         print("*",end=" ")
+#     print("\n")
+
+'''---printing alphabets as star patterns---'''
+a=("A","B","C","D","E")
+for i in range(1,6):
+    for j in range(i):
+        print(a[j],end=" ")
+    print("\n")
+     
