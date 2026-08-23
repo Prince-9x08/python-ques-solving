@@ -226,9 +226,13 @@ import math
 #     print("\n")
 
 '''---printing alphabets as star patterns---'''
-a=("A","B","C","D","E")
-for i in range(1,6):
-    for j in range(i):
-        print(a[j],end=" ")
-    print("\n")
+# a=("A","B","C","D","E")
+# for i in range(1,6):
+#     for j in range(i):
+#         print(a[j],end=" ")
+#     print("\n")
      
+a=['prince',31,True,False,12.5]
+
+for i in range(len(a)):
+    print(a[i])
