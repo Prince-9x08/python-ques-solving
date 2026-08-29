@@ -234,5 +234,8 @@ import math
      
 a=['prince',31,True,False,12.5]
 
-for i in range(len(a)):
-    print(a[i])
+# for i in range(len(a)):
+#     print(a[i])
+
+print(a[::-1])
+
