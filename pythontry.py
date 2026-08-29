@@ -232,10 +232,42 @@ import math
 #         print(a[j],end=" ")
 #     print("\n")
      
-a=['prince',31,True,False,12.5]
+# a=['prince',31,True,False,12.5]
 
 # for i in range(len(a)):
 #     print(a[i])
 
-print(a[::-1])
+# print(a[::-1])
 
+'''====practice problems==='''
+# code_list=["python","java","c","c++","js"]
+# print(code_list[0])
+# print(code_list[-1])
+
+# marks = [45, 67, 89, 23, 90, 56, 78]
+
+# print(marks[0:3])
+# print(marks[:3:-1])
+# print(marks[::2])
+# print(marks[::-1])
+
+# todos = ["wake up", "study"] 
+
+# todos.append("exercise")
+# todos.insert(0,"meditate")
+# todos.remove("study")
+# todos.insert(len(todos),"sleep")
+# print(todos)
+'''--------------------------'''
+# marks_list=[
+#     ["prince",80.8],
+#     ["ankit",80.4],
+#     ["kunal",75.2]
+# ]
+    
+# print(marks_list[1][0])
+# print(marks_list[2][1])
+'''------------------------'''
+data = [101, "Varanasi", 25.3, 82.9]
+a,b,c,d=data
+print(a,b,c,d)
