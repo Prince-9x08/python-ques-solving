@@ -268,6 +268,13 @@ import math
 # print(marks_list[1][0])
 # print(marks_list[2][1])
 '''------------------------'''
-data = [101, "Varanasi", 25.3, 82.9]
-a,b,c,d=data
-print(a,b,c,d)
+# data = [101, "Varanasi", 25.3, 82.9]
+# a,b,c,d=data
+# print(a,b,c,d)
+
+original = [1, 2, 3]
+
+backup=original.copy()
+backup.append(99)
+print(original)
+print(backup)
