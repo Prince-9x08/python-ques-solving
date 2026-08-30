@@ -271,10 +271,16 @@ import math
 # data = [101, "Varanasi", 25.3, 82.9]
 # a,b,c,d=data
 # print(a,b,c,d)
+'''====right way to copy a lsit==='''
+# original = [1, 2, 3]
 
-original = [1, 2, 3]
+# backup=original.copy()
+# backup.append(99)
+# print(original)
+# print(backup)
 
-backup=original.copy()
-backup.append(99)
-print(original)
-print(backup)
+scores = [40, 80, 65, 95, 70]
+
+print("lowest score is :", scores[0],
+    "\nhighest score is :", scores[3])
+print("the winner is at position",scores.index(95)+1)
