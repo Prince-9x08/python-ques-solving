@@ -279,8 +279,62 @@ import math
 # print(original)
 # print(backup)
 
-scores = [40, 80, 65, 95, 70]
+# scores = [40, 80, 65, 95, 70]
 
-print("lowest score is :", scores[0],
-    "\nhighest score is :", scores[3])
-print("the winner is at position",scores.index(95)+1)
+# print("lowest score is :", scores[0],
+#     "\nhighest score is :", scores[3])
+# print("the winner is at position",scores.index(95)+1)
+'''====practice problems==='''
+
+'''Print numbers from 1 to 100. Print Fizz if divisible
+ by 3, Buzz if divisible by 5, FizzBuzz if
+divisible by both, otherwise print the number.'''
+
+# for i in range(1,101,1):
+#     if i%3==0 and i%5==0:
+#         print("fizzbuzz")
+#     elif i%3==0:
+#         print("fizz")
+#     elif i%5==0:
+#         print("buzz")
+#     else:
+#         print(i)
+
+'''Find the sum and average of a list without using
+ sum() or statistics.mean()'''
+
+# num_lst=[15,65,78,12,9,89,56]
+
+# sum=0
+# for ele in num_lst:
+#     sum=ele+sum
+
+# avg=sum/len(num_lst)
+# print("sum =", sum)
+# print("avg =", avg)
+
+'''Find the
+ largest element in a list without using max()'''
+
+# num=[98,78,67,59,46,108,39]
+
+# largest=num[0]
+
+# for ele in num:
+#     if ele>largest:
+#      largest=ele
+
+# print("the largset num is :", largest)
+
+'''Check whether a given number is Prime or Not Prime'''
+
+# x=int(input("enter your number:"))
+
+# for i in range(2,x):
+#     if x%i==0:
+#       print(f"your number: {[x]} is not prime")
+#       break
+# else:
+#     print(f"your number: {[x]} is prime")
+        
+        
