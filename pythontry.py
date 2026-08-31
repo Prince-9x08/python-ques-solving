@@ -328,13 +328,12 @@ divisible by both, otherwise print the number.'''
 
 '''Check whether a given number is Prime or Not Prime'''
 
-# x=int(input("enter your number:"))
+x=int(input("enter your number:"))
 
-# for i in range(2,x):
-#     if x%i==0:
-#       print(f"your number: {[x]} is not prime")
-#       break
-# else:
-#     print(f"your number: {[x]} is prime")
-        
+for i in range(2,x):
+    if x%i==0:
+      print(f"your number: {[x]} is not prime")
+      break
+else:
+    print(f"your number: {[x]} is prime")
         
