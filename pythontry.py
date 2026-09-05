@@ -328,12 +328,30 @@ divisible by both, otherwise print the number.'''
 
 '''Check whether a given number is Prime or Not Prime'''
 
-x=int(input("enter your number:"))
+# x=int(input("enter your number:"))``
 
-for i in range(2,x):
-    if x%i==0:
-      print(f"your number: {[x]} is not prime")
-      break
-else:
-    print(f"your number: {[x]} is prime")
+# for i in range(2,x):
+#     if x%i==0:
+#       print(f"your number: {[x]} is not prime")
+#       break
+# else:
+#     print(f"your number: {[x]} is prime")
         
+
+'''===check for duplicate nums in a list==='''
+
+lst_1=[1,2,2,3,4,5,5,5,6,7,7,9,9,9,9,1,1]
+
+dupl=[]
+for i in lst_1:
+    count=0
+    for j in lst_1:
+        if i==j:
+            count=count+1
+    if count>1 and i not in dupl:
+        dupl.append(i)
+
+print("the terms which occur ore thn one time are :",dupl)
+            
+
+
