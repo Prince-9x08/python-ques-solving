@@ -340,18 +340,30 @@ divisible by both, otherwise print the number.'''
 
 '''===check for duplicate nums in a list==='''
 
-lst_1=[1,2,2,3,4,5,5,5,6,7,7,9,9,9,9,1,1]
+# lst_1=[1,2,2,3,4,5,5,5,6,7,7,9,9,9,9,1,1]
 
-dupl=[]
-for i in lst_1:
-    count=0
-    for j in lst_1:
-        if i==j:
-            count=count+1
-    if count>1 and i not in dupl:
-        dupl.append(i)
+# dupl=[]
+# for i in lst_1:
+#     count=0
+#     for j in lst_1:
+#         if i==j:
+#             count=count+1
+#     if count>1 and i not in dupl:
+#         dupl.append(i)
 
-print("the terms which occur ore thn one time are :",dupl)
+# print("the terms which occur more thn one time are :",dupl)
             
+'''--------MORE QUES--------'''
+
+'''===program to find smallest num in list==='''
+
+nums = [34, 12, 78, 5, 60]
+
+for i in nums:
+    smallest=i
+    for j in  nums:
+        if j<=smallest:
+            smallest=j
+print(f"the smallest num in list is: {smallest}")
 
 
